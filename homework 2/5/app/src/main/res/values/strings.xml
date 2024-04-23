@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hw_02_05</string>
+    <string name="register">REGISTER</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="pasword">Pasword</string>
+    <string name="next">NEXT</string>
+    <string name="Trivia">Trivia</string>
+    <string name="NEXT">NEXT</string>
+</resources>
