@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg_1fragment"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="120dp"
+        android:text="@string/now_playing"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_talkMeDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="80dp"
+        android:text="@string/talk_me_down"
+        android:textColor="@color/white"
+        android:textSize="46sp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blue_neighbourhood"
+        android:textSize="26sp"
+        android:textColor="@color/white"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="50dp"/>
+</FrameLayout>
